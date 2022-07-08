@@ -5,7 +5,7 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "airbnb"
+        //"airbnb"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -18,9 +18,5 @@
         "react"
     ],
     "rules": {
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "eslint.validate": ["javascript"]
+    }
 }
