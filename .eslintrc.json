@@ -1,9 +1,4 @@
 {
-
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "eslint.validate": ["javascript"],
     "env": {
         "browser": true,
         "es2021": true
@@ -23,5 +18,9 @@
         "react"
     ],
     "rules": {
-    }
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"]
 }
